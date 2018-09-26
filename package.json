@@ -1,0 +1,16 @@
+{
+  "name": "greeter-bot",
+  "version": "1.0.0",
+  "description": "My own Discord bot",
+  "main": "bot.js",
+  "author": "Mr Potato",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "node-cron": "^2.0.1",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "patch-package": "^5.1.1"
+  }
+}

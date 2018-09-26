@@ -1,0 +1,12 @@
+patch-package
+--- a/node_modules/discord.io/lib/index.js
++++ b/node_modules/discord.io/lib/index.js
+@@ -2,7 +2,7 @@
+ (function discordio(Discord){
+ var isNode = typeof(window) === "undefined" && typeof(navigator) === "undefined";
+ var CURRENT_VERSION = "2.x.x",
+-    GATEWAY_VERSION = 5,
++    GATEWAY_VERSION = 6,
+     LARGE_THRESHOLD = 250,
+     CONNECT_WHEN = null,
+     Endpoints, Payloads;
